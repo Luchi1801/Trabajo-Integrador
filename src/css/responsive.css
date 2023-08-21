@@ -1,0 +1,308 @@
+@media (max-width: 576px) {
+    body {
+        background-image: none;
+    }
+
+    .introduction {
+        width: 34rem;
+        text-align: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .introduction .title {
+        line-height: 8rem;
+    }
+
+    .introduction .text {
+        font-size: 1.8rem;
+    }
+
+    .services-area h1 {
+        text-align: center;
+        line-height: 8rem;
+    }
+    
+    .services-area .services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15rem;
+    }
+
+    .plans-area .plans {
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+    .more-about {
+        flex-direction: column;
+        text-align: center;
+        background-image: none;
+    }
+
+    .more-about .image {
+        display: none;
+    }
+
+    .more-about .text .title {
+        font-size: 5rem;
+    }
+
+    .more-about .text .title span {
+        font-size: 6rem;
+    }
+
+    .more-about .gym-numbers {
+        padding: 7rem 1rem;
+        gap: 1rem;
+    }
+    
+    .more-about .gym-numbers .numbers {
+        font-size: 4rem;
+    }
+
+    .more-about .text .description {
+        margin: 0 1rem;
+    }
+
+    .more-about .gym-numbers .about {
+        font-size: 1.6rem;
+    }
+
+    .contact-area {
+        padding: 0;
+        padding-left: 4rem;
+    }
+
+    .contact-area .text {
+        padding-top: 4rem;
+    }
+
+    .contact-area .form-area {
+        width: 30rem;
+    }
+    .contact-area .form-area input {
+        width: 150px;
+    }
+
+    .contact-area img {
+        display: none;
+    }
+}
+
+
+    @media (max-width: 996px) {
+        body {
+            background-image: none;
+            height: auto;
+        }
+        
+        .header .header-container {
+            padding: 1.5rem;
+        }
+        
+        .quick-navigation {
+            gap: 1.5rem;
+            font-size: 1.8rem;
+        }
+        
+        .introduction {
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0;
+        }
+        
+        .introduction .title {
+            text-align: center;
+            font-size: 4.2rem;
+            line-height: 6rem;
+        }
+        
+        .introduction .title span {
+            font-size: 5.4rem;
+        }
+        
+        .introduction .text {
+            font-size: 1.6rem;
+            margin-bottom: 2.4rem;
+        }
+        
+        .introduction .text span {
+            font-size: 2rem;
+        }
+        
+        .introduction .start-btn {
+            font-size: 2rem;
+            width: auto;
+            padding: 0.6rem 1.5rem;
+        }
+        
+        .introduction .start-btn::after {
+            margin-left: 0.5rem;
+        }
+        
+        .introduction .image-area {
+            margin-right: 0;
+        }
+        
+        .pass-through-bar .text-container {
+            white-space: normal;
+            animation: none;
+        }
+        
+        .pass-through-bar p {
+            margin-right: 1.5rem;
+            font-size: 1.6rem;
+        }
+        
+        .pass-through-bar p::after {
+            display: none;
+        }
+        
+        .services-area h1 {
+            font-size: 4.2rem;
+            padding-top: 8rem;
+            padding-bottom: 6rem;
+        }
+        
+        .services .service {
+            width: 100%;
+            margin-bottom: 2.4rem;
+        }
+        
+        .services .service img {
+            width: 4.5rem;
+        }
+        
+        .service .title-service {
+            font-size: 2.4rem;
+            padding-bottom: 1rem;
+        }
+        
+        .service .about {
+            font-size: 1.4rem;
+            padding-bottom: 2.4rem;
+        }
+        
+        .service .btn-service {
+            font-size: 1.4rem;
+            padding: 0.8rem 1.8rem;
+        }
+        
+        .plans-area h1 {
+            font-size: 5.4rem;
+            padding-bottom: 6rem;
+        }
+        .plan{
+            margin: 10px;
+        }
+        
+        .plans-area .plans {
+            flex-direction: column;
+            gap: 3rem;
+        }
+        
+        .plans-area .plan {
+            width: 100%;
+            height: auto;
+            padding: 2.4rem;
+        }
+        
+        .plan .plan-time {
+            font-size: 3.2rem;
+            padding: 1rem 1.8rem;
+        }
+        
+        .plan .price {
+            padding: 1.5rem 1.8rem;
+            font-size: 2rem;
+        }
+        
+        .plan .btn {
+            font-size: 1.6rem;
+            padding: 1rem 0.5rem;
+        }
+        
+        .more-about {
+            text-align: center;
+            flex-direction: column;
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+        }
+        
+        .more-about .image {
+            padding-top: 0;
+            padding-left: 0;
+            height: auto;
+        }
+        
+        .more-about .text .title {
+            font-size: 4.2rem;
+        }
+        
+        .more-about .text .title span {
+            font-size: 5.4rem;
+        }
+        
+        .more-about .text .description {
+            font-size: 1.6rem;
+        }
+        
+        .more-about .gym-numbers {
+            padding-top: 5rem;
+            gap: 3rem;
+        }
+        
+        .more-about .gym-numbers .numbers {
+            font-size: 4.2rem;
+        }
+        
+        .more-about .gym-numbers .about {
+            font-size: 1.6rem;
+        }
+        
+        .contact-area {
+            padding-left: 0;
+            height: auto;
+            position: relative;
+        }
+        
+        .contact-area .text {
+            text-align: center;
+            padding-top: 3rem;
+        }
+        
+        .contact-area .text p:first-child {
+            font-size: 5.4rem;
+        }
+        
+        .contact-area .text p:last-child {
+            font-size: 1.6rem;
+        }
+        
+        .contact-area .form-area {
+            flex-direction: column;
+            gap: 1.5rem;
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+        
+        .contact-area .form-area input {
+            width: 100%;
+        }
+        
+        .contact-area img {
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 100%;
+            width: 300px;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+}
+    }
