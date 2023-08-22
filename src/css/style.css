@@ -38,10 +38,10 @@ body {
 
 .quick-navigation a {
     position: relative;
-    z-index: 2; /* Colocar las letras por encima del pseudo-elemento */
-    color: #fff; /* Asegurarse de que las letras sean blancas */
-    text-decoration: none; /* Opcional: quitar subrayado de los enlaces */
-    transition: color 0.3s ease; /* Agregar transición al cambio de color */
+    z-index: 2; 
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
 }
 
 
